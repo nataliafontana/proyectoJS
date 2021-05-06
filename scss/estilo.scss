@@ -1,0 +1,166 @@
+*{
+    margin: 0; box-sizing: border-box;
+}
+
+.titulos{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(225, 19, 139);
+    font-size: 2rem;
+
+}
+
+p{
+    font-variant: normalsesion;
+    font-size: 2rem;
+}
+
+
+.btn_logout{
+    background-color:  rgb(118, 22, 71);
+    margin: 1rem;
+    border: rgb(213, 160, 195);
+    height: 2rem;
+    color: blanchedalmond;
+
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+.perfil__logo{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto__conteiner{
+    margin: 2rem;
+    background-color: rgba(206, 149, 228, 0.59);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.contacto__datos{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto__fuente{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 36, 132);
+    margin:0.5rem;
+    margin-left: 0;
+}
+.contacto__input{
+width: 30rem;
+height: 2rem;
+border: 0;
+
+}
+
+.contacto__textarea{
+    border: 0;
+    width: 30rem;
+}
+
+.contacto__fuente--mensaje{
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 36, 132);
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+}
+
+.pie{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin: 1rem;
+}
+.pie__fuente{
+    font-size: 1rem;
+    color:  rgb(221, 36, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    font-weight: 700;
+
+}
+
+.pie__iconos--tamano{
+    width: 35px;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.pie__iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#saludo{
+    font-size: 1.5rem;
+    color:rgb(221, 36, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#productos{
+    color:rgb(221, 36, 132);
+    background-color: rgb(235, 142, 196);
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+.texto__tarjeta{
+    font-size: 1rem;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.margenes{
+    margin: 2rem;
+}
+
+.margenes_card{
+    margin: 0.2rem;
+}
+
+.alineacion{
+   text-align: center;
+}
+
+.consulta{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    font-variant: normal;
+}
+
+#btn1{
+    border:none;
+    justify-content: center;
+    background-color:rgba(206, 149, 228, 0.59); 
+}
+.btn_dudas{
+    display: flex;
+    justify-content: center;
+}
